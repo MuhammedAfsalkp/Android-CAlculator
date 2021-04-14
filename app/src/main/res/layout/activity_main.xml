@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btone"
+        android:layout_width="250dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="207dp"
+        android:backgroundTint="@color/white"
+        android:onClick="oneClick"
+        android:text="OPEN"
+        android:textColor="#58a0c3"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        tools:ignore="OnClick"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <Button
+        android:id="@+id/bttwo"
+        android:layout_width="250dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="111dp"
+        android:backgroundTint="@color/white"
+        android:onClick="oneClick"
+        android:text="CREATOR"
+        android:textColor="#58a0c3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/afsal" />
+</RelativeLayout>
